@@ -166,17 +166,6 @@ MLFLOW_TRACKING_URI=./mlruns
 
 ---
 
-## 模型與微調（擴充方向）
-
-- 內建以本地假模型取代 LLM 產文，確保專案不依賴雲端金鑰即可跑通。
-- 若要切換至真實 LLM：
-  - 在 `.env` 填入供應商金鑰，並改寫 `app/agents/llm.py`
-  - 可接 OpenAI、Anthropic、Ollama、vLLM 等
-- LoRA 微調：
-  - 參考 `app/models/lora_config.yaml`，自訂基底模型、目標模組與超參數
-  - 建議另建 `train_lora.py` 與 MLflow 整合，追蹤實驗與版本
-
----
 
 ## 測試與品質
 

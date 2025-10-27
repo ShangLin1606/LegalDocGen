@@ -1,0 +1,4 @@
+base_model: tinyllama
+r: 8
+alpha: 16
+dropout: 0.05

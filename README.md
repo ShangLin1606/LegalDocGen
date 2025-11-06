@@ -223,4 +223,4 @@ docker-compose up --build
 
 ## 授權條款
 
-本專案採用 MIT License。實務上引用之法規文本、案例與樣本資料，請依其授權條款與合規要求使用。
+本專案採用 MIT License
